@@ -1,4 +1,5 @@
 # Swagger Training
+
 ## Index
 * [Aim](#Aim)
 * [Disclaimer](#Disclaimer)
@@ -22,6 +23,7 @@ To use as an example, I chose [BLiP's msging API](https://docs.blip.ai/?http#con
 The code provided within this repo (in the **src** folder) is functional and provided **as-is**. Feel free to toy with it, but be mindful of what you choose to do with your chatbot.
 
 ---
+
 ## Goal
 The end-result we are aiming for is something like the following:
 
@@ -81,6 +83,7 @@ where you need to replace the `netcoreapp2.1` path with your version of .NET Cor
 With all that done, swagger should be installed and configured. All that is left is to properly document your controllers and actions.
 
 ---
+
 ## Documenting
 To generate the `.xml` documentation, we will use the `C#` native feature: Triple slash comments (`///`).
 
@@ -201,4 +204,4 @@ Any `enum` that is used as a parameter will show up as a drop down list on Swagg
 
 ![Enums](docs/Enums.png)
 
-> Note: the enum parameter here is not used in the action and is here merely to illustrate the possibility.
+> Note: the enum parameter here is not used in the action and is here merely to illustrate the possibility. 
